@@ -1,0 +1,10 @@
+# CBTFlower act 1
+
+Emblem 1
+Hint = At Checkpoint Turn back and you gonna see what is it.
+Type = Skin
+Tag = 1
+MapNum = C1
+Sprite = U
+Color = SKINCOLOR_BLUE
+Var = 0

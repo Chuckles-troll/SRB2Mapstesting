@@ -1,0 +1,40 @@
+MainCfg
+SpStage_Start = C1
+NumDemos = 1
+GameData = s_ChucklesCBTAdventure.dat
+ResetData = 7
+CustomVersion = not even on beta phase pfff
+Clear Unlockables
+Clear Emblems
+Clear ExtraEmblems
+Clear ConditionSets
+
+# Unlockables
+
+Unlockable 1
+Name = Record Attack
+Objective = Complete Greenflower Zone
+Height = 0
+ConditionSet = 1
+Type = RecordAttack
+
+# Condition sets
+
+ConditionSet 1
+Condition1 = MapBeaten C1
+Condition1 = GameClear 2
+
+# Single Player
+
+Level C1
+Levelname = CBTFlower
+Act = 1
+ForceCharacter = Sonic
+Music = GFZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+RecordAttack = true
+SkyNum = 8
+LevelSelect = 1
+SaveGame = true
+SkyboxScale = 64
+FlickyList = Bluebird,Chipmunk
